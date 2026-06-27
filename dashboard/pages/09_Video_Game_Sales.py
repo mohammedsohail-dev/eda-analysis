@@ -13,7 +13,7 @@ st.markdown("Global game sales by platform, genre & publisher (1980-2020, VGChar
 
 # ── LOAD DATA ─────────────────────────────────────────────────────────────
 
-DATA = "../data/video-game-sales.csv.gz"
+DATA = "data/video-game-sales.csv.gz"
 df = pd.read_csv(DATA)
 
 # ── DATA CLEANING ─────────────────────────────────────────────────────────

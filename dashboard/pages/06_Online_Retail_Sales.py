@@ -13,7 +13,7 @@ st.markdown("541K transactions from UK-based online retailer. Revenue, customer 
 
 # ── LOAD DATA ─────────────────────────────────────────────────────────────
 
-DATA = "../data/online-retail-sales.csv.gz"
+DATA = "data/online-retail-sales.csv.gz"
 df = pd.read_csv(DATA)
 df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'])
 

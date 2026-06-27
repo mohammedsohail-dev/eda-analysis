@@ -13,7 +13,7 @@ st.markdown("Trip patterns, tipping behavior, and fare analysis (Jan 2024, 100k 
 
 # ── LOAD DATA ─────────────────────────────────────────────────────────────
 
-DATA = "data/nyc-taxi-trips.csv.gz"
+DATA = "dashboard/data/nyc-taxi-trips.csv.gz"
 df = pd.read_csv(DATA, parse_dates=['tpep_pickup_datetime', 'tpep_dropoff_datetime'])
 
 # ── DATA CLEANING ─────────────────────────────────────────────────────────

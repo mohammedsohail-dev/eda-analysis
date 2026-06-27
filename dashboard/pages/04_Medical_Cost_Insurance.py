@@ -14,7 +14,7 @@ st.markdown("What drives insurance premiums? Age, BMI, smoking status & region."
 
 # ── LOAD DATA ─────────────────────────────────────────────────────────────
 
-DATA = "data/medical-cost-insurance.csv.gz"
+DATA = "dashboard/data/medical-cost-insurance.csv.gz"
 df = pd.read_csv(DATA)
 
 # ── DATA CLEANING ─────────────────────────────────────────────────────────

@@ -15,7 +15,7 @@ st.markdown("5-year daily prices for 9 top US bank stocks: JPM, GS, C, WFC, MS, 
 
 # ── LOAD DATA ─────────────────────────────────────────────────────────────
 
-DATA = "data/sp500-banks.csv.gz"
+DATA = "dashboard/data/sp500-banks.csv.gz"
 df = pd.read_csv(DATA, parse_dates=['Date'])
 
 # ── DATA CLEANING ─────────────────────────────────────────────────────────

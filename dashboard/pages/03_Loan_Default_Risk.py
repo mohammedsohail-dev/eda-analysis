@@ -13,7 +13,7 @@ st.markdown("Credit risk assessment — predict loan defaults from borrower attr
 
 # ── LOAD DATA ─────────────────────────────────────────────────────────────
 
-DATA = "data/loan-default.csv.gz"
+DATA = "dashboard/data/loan-default.csv.gz"
 df = pd.read_csv(DATA)
 
 # ── DATA CLEANING ─────────────────────────────────────────────────────────

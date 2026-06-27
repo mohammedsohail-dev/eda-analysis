@@ -14,7 +14,7 @@ st.markdown("40K+ games on Steam — pricing, ratings, genres, and developer ins
 
 # ── LOAD DATA ─────────────────────────────────────────────────────────────
 
-DATA = "data/steam-games.csv.gz"
+DATA = "dashboard/data/steam-games.csv.gz"
 df = pd.read_csv(DATA)
 
 # ── DATA CLEANING ─────────────────────────────────────────────────────────

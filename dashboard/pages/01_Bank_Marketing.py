@@ -14,7 +14,7 @@ st.markdown("Predict term deposit subscriptions from direct marketing campaigns.
 
 # ── LOAD DATA ─────────────────────────────────────────────────────────────
 
-DATA = "data/bank-marketing.csv.gz"
+DATA = "dashboard/data/bank-marketing.csv.gz"
 df = pd.read_csv(DATA)
 
 # ── DATA CLEANING ─────────────────────────────────────────────────────────

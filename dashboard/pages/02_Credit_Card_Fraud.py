@@ -15,7 +15,7 @@ st.markdown("284,807 transactions — only 492 fraudulent (0.17%). Classic imbal
 
 # ── LOAD DATA ─────────────────────────────────────────────────────────────
 
-DATA = "data/credit-card-fraud.csv.gz"
+DATA = "dashboard/data/credit-card-fraud.csv.gz"
 df = pd.read_csv(DATA)
 
 # ── DATA CLEANING ─────────────────────────────────────────────────────────
